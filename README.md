@@ -4,7 +4,7 @@ This project implements a simple Continuous Integration pipeline for a Java appl
 
 ## Build Status
 
-![SE333 CI Workflow](https://github.com/cwg2ykzx64-spec/se333-assignment-5/actions/workflows/SE333_Cl.yml/badge.svg)
+![SE333 CI Workflow](https://github.com/cwg2ykzx64-spec/se333-assignment-5/actions/workflows/SE333_CI.yml/badge.svg)
 
 ## Project Overview
 
@@ -15,5 +15,5 @@ This project includes two main packages:
 The project is configured to automatically run static analysis and unit/integration tests on every push to the `main` branch via GitHub Actions.
 
 
-* **GitHub Actions Workflow**: The workflow file is located at `.github/workflows/SE333_Cl.yml`.
+* **GitHub Actions Workflow**: The workflow file is located at `.github/workflows/SE333_CI.yml`.
 * **Workflow Status**: The workflow has been configured to run. All actions are expected to pass.
